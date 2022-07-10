@@ -1,0 +1,78 @@
+.bg-myColor {
+  background-color: navy;
+}
+
+.bg-myColor-dark {
+  background-color: rgb(215, 213, 213);
+}
+
+.z-position{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 200;
+}
+
+.line {
+  color: white;
+  text-decoration: none;
+}
+
+.line:hover {
+  color: rgb(255, 247, 0);
+}
+
+.line-dark {
+  color: black;
+  text-decoration: none;
+}
+
+.line-dark:hover {
+  color: white
+}
+
+.active {
+  color: red;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  
+  .logo {
+  margin-left: 80px;
+  }
+
+  .li-nav {
+    font-size: 1.4rem;
+    margin-left: 15px;   
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .logo {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .li-nav {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1267px) {
+
+  .li-user {
+    margin-right: 70px;
+  }
+}
+
+@media screen and (min-width: 1268px) {
+  
+  .li-user {
+  margin-right: 140px;
+}
+}
